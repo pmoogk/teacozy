@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 1;
+}
+
+h2, h3, h4, h5 {
+  color: seashell;
+}
+
+h2, h3 {
+  margin:0;
+  padding: 10px;
+}
+
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav span a {
+  color: seashell;
+}
+
+.main_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top:70px;
+}
+
+.mission_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url( "../images/img-mission-background.jpg" );
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+}
+
+.text_content {
+  background-color: black;
+  color: seashell;
+  width: 100%;
+}
+
+.featured_container {
+   height: 700px;
+   width: 1000px;
+   margin: auto;
+   padding-top: 70px;
+}
+
+.featured_item_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.featured_item {
+  padding: 5px;
+}
+
+.featured_item img {
+  margin: 10px;
+}
+
+.featured_item_container span {
+  display: block;
+  text-align: center;
+}
+
+.locations_container {
+
+  background-image: url( "../images/img-locations-background.jpg" );
+  height: 500px;
+  width: 1200px;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+.locations_container h2 {
+  margin-bottom: 15px;
+}
+
+.locations_list_container {
+  display: flex;
+  width: 1100px;
+  margin: auto;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px
+}
